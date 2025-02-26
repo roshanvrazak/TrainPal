@@ -18,6 +18,9 @@ repositories {
 dependencies {
     // Use JUnit test framework.
     testImplementation libs.junit
+    // https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.12.6'
+
 
     // This dependency is used by the application.
     implementation libs.guava
