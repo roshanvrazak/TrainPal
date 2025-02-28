@@ -1,0 +1,42 @@
+[
+  {
+    "train_id": "EMR",
+    "train_no": 1298,
+    "seats": [
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times": {
+      "Loughborough": "13:50:00",
+      "Beeston": "13:50:00",
+      "Nottingham": "13:50:00"
+    },
+    "stations": [
+      "Loughborough",
+      "Beeston",
+      "Nottingham"
+    ]
+  },
+  {
+    "train_id": "Avanti",
+    "train_no": 4576,
+    "seats": [
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0],
+      [0,0,0,0,0,0]
+    ],
+    "station_times": {
+      "Nottingham": "13:50:00",
+      "Derby": "13:50:00",
+      "Crewe": "13:50:00"
+    },
+    "stations": [
+      "Nottingham",
+      "Derby",
+      "Crewe"
+    ]
+  }
+]
