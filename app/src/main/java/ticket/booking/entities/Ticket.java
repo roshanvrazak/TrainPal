@@ -50,7 +50,7 @@ public class Ticket {
         this.source = source;
     }
 
-    public String getDestination() {
+    public String getDestination() { 
         return destination;
     }
 
