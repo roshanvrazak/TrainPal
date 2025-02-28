@@ -1,0 +1,29 @@
+[
+  {
+    "user_id": "roshan123",
+    "name": "Roshan V Razak",
+    "hashed_password": "12345",
+    "tickets_booked": [
+      {
+        "source": "Loughborough",
+        "destination": "Nottingham",
+        "date_of_travel": "2024-10-05T18:30:00Z",
+        "train": {
+          "train_id": "EMR",
+          "train_no": 4321,
+          "seats": [
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0],
+            [0,0,0,0,0,0]
+          ],
+          "stations": {
+            "Loughborough": "11:30:00",
+            "Beeston": "11:30:00",
+            "Nottingham": "11:30:00"
+          }
+        }
+      }
+    ]
+  }
+]
