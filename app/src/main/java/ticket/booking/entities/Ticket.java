@@ -17,7 +17,6 @@ public class Ticket {
     private Date dateOfTravel;
     private Train train;
 
-
     public Ticket(String ticketId, String userId, String source, String destination, Date dateOfTravel, Train train) {
         this.ticketId = ticketId;
         this.userId = userId;
@@ -51,7 +50,7 @@ public class Ticket {
         this.source = source;
     }
 
-    public String getDestination() {
+    public String getDestination() { 
         return destination;
     }
 
@@ -74,9 +73,4 @@ public class Ticket {
     public void setTrain(Train train) {
         this.train = train;
     }
-
-    public String getTicketInfo() {
-        return "Ticket ID: " + ticketId + "\nUser ID: " + userId + "\nSource: " + source + "\nDestination: " + destination + "\nDate of Travel: " + dateOfTravel + "\nTrain: " + train;
-    }
-
 }
