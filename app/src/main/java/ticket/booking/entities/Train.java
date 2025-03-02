@@ -16,6 +16,7 @@ public class Train {
     private int trainNo;
     private List<List<Integer>> seats;
     private Map<String, Date> stations;
+    private Map<String, String> stationTimes;
 
     public String getTrainId() {
         return trainId;
@@ -58,5 +59,13 @@ public class Train {
 
     public String getTrainInfo() {
         return "Train ID: " + trainId + ", Train No: " + trainNo;
+    }
+
+    public void setStationTimes(Map<String, String> stationTimes){
+        this.stationTimes = stationTimes;
+    }
+
+    public Map<String, String> getStationTimes() {
+        return stationTimes;
     }
 }
