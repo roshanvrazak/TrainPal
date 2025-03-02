@@ -36,5 +36,4 @@ public class UserBookingService {
         return foundUser.isPresent();
     }
 
-
 }
